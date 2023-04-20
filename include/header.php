@@ -44,6 +44,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="logout.php">Logout</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="publishers.php">Publishers</a>
+                    </li>
                 <?php } ?>
             </ul>
         </div>

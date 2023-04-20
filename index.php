@@ -13,6 +13,13 @@ require 'include/header.php';
         <a href="https://wikipedia.org" target="_blank">Wikipedia</a>.
     </p>
     <p>Created my logo at <a href="LogoMakr.com" target="_blank">LogoMakr.com</a>.</p>
+    <p>https://github.com/SpencerCloughley/comp1006g-finalexam-SpencerCloughley</p>
+    
+    <div style="text-align:center;padding:1em 0;"> <h4><a style="text-decoration:none;" 
+    href="https://www.zeitverschiebung.net/en/city/5894171"><span style="color:gray;">
+    Current local time in</span><br />Barrie, Canada</a></h4> 
+    <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=small&timezone=America%2FToronto" 
+        width="100%" height="90" frameborder="0" seamless></iframe> </div>
 </main>
 </body>
 </html>
