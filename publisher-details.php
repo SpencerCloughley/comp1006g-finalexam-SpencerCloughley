@@ -28,9 +28,10 @@ try{
     <form method="post" action="save-publisher.php">
         <fieldset class="p-2">
             <label for="name" class="col-2">Publisher: </label>
-            <input name="name" id="name" required maxlength="100" value="<?php echo $name; ?>   "/>
+            <input name="name" id="name" required maxlength="100" value="<?php echo $name; ?>"/>
         </fieldset>
         <button class="offset-2 btn btn-primary p-2">Save</button>
+        <input name="publisherId" id="publisherId" value="<?php echo $publisherId; ?>" type="hidden" />
     </form>
 </main>
 </body>
