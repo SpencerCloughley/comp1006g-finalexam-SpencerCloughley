@@ -21,7 +21,7 @@ require 'include/header.php';?>
         echo '<tr>
         <td>' . $publisher['name'] . '</td>
         <td>
-        <a href="publisher-details.php?pageId=' . $publisher['publisherId'] .'" title="Edit">
+        <a href="publisher-details.php?publisherId=' . $publisher['publisherId'] .'" title="Edit">
             Edit
         </a>
         </td>
