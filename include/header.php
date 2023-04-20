@@ -42,10 +42,13 @@
                         <a class="nav-link" href="#"><?php echo $_SESSION['username']; ?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="logout.php">Logout</a>
+                        <a class="nav-link" href="publishers.php">Publishers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="publishers.php">Publishers</a>
+                        <a class="nav-link" href="upload-logo.php">Upload Logo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.php">Logout</a>
                     </li>
                 <?php } ?>
             </ul>
